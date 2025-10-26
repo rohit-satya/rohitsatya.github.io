@@ -233,7 +233,20 @@ body {
     }
     
     .ascii-art {
-        font-size: 8px;
+        font-size: 6px;
+        overflow-x: auto;
+        white-space: pre;
+        max-width: 100%;
+        word-break: keep-all;
+    }
+}
+
+@media (max-width: 480px) {
+    .ascii-art {
+        font-size: 4px;
+        overflow-x: auto;
+        white-space: pre;
+        max-width: 100%;
     }
 }
 
