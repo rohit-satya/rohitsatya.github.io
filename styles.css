@@ -68,6 +68,10 @@ body {
     margin-bottom: 10px;
 }
 
+.prompt:last-child {
+    text-align: left;
+}
+
 .command {
     color: #44ff44;
     margin-left: 5px;
